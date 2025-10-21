@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<HTML>
+<html>
     <head>
         <meta charset="UTF-8">
+        <title>History</title>
     </head>
 <body>
     <nav>
@@ -12,7 +13,7 @@
 
     <h1>History of VSC</h1>
 
-    <h2>Early Local Systems (1970s-1980s)</h1>
+    <h2>Early Local Systems (1970s-1980s)</h2>
 
     <p>The earliest version control tools were designed for single developers on a single machine. SCCS (1972) and RCS (1982) were pioneers that introduced the basic concept of tracking changes to individual files. However, they lacked any networking capabilities and could not be used for team collaboration.</p>
 
@@ -20,16 +21,16 @@
 
     <p>CVS (1986) was a major leap forward, introducing a client-server model that allowed multiple developers to work on the same project over a network. In 2000, Subversion (SVN) was created to be a "better CVS," fixing many of its predecessor's flaws. SVN introduced features like atomic commits (all-or-nothing changesets) and became the open-source and corporate standard for much of the 2000s.</p>
 
-    <h2>The Distributed Revolution (2005)</h3>
+    <h2>The Distributed Revolution (2005)</h2>
     
     <p>A massive shift occurred in 2005 with the creation of Git and Mercurial. Git was famously created by Linus Torvalds to manage the complex, globally distributed development of the Linux kernel. These new Distributed Version Control Systems (DVCS) were dramatically faster and treated branching and merging as first-class, lightweight operations, unlocking the non-linear workflows common in development today.</p>
 
-    <h2>The Shift to Cloud Platforms (2008-Present)</h3>
+    <h2>The Shift to Cloud Platforms (2008-Present)</h2>
     
     <p>While Git was a powerful tool, its adoption was massively accelerated by the launch of GitHub in 2008. GitHub provided a user-friendly web interface for hosting Git repositories and introduced key collaboration features like the "pull request." This social, platform-based approach made Git accessible to everyone and cemented its status as the de facto industry standard.</p>
 
-
-    
+    <h2>Why distributed VCS changed the game (branching/merging models).</h2>
+    <p>Distributed VCS (DVCS) like Git made branching and merging fast, easy, and local. In older centralized systems (CVCS) like SVN, branches were slow, server-heavy copies that were difficult to manage and merge, so developers avoided them. Because DVCS branches are lightweight, instant "pointers," developers can create them for every new feature or fix. This ability to branch and merge constantly and safely enabled modern, parallel development and collaborative workflows like pull requests.</p>
 
 </body>
-</HTML>
+</html>
