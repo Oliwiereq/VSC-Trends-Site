@@ -12,13 +12,19 @@
 
     <h1>Trends of VSC</h1>
 
-    <h2>What is a Version Control System (VCS)?</h1>
+    <h2>CI/CD Integration</h1>
 
-    <p>Version Control Systems (VCS) are essential tools that track all changes made to files over time, most commonly used for source code. They serve as a database for a project's history, allowing multiple developers to collaborate effectively. Key functions include providing a complete record of modifications, allowing teams to work in parallel, and enabling them to revert to any previous version if a mistake is made.</p>
+    <p>VCS is now the starting point for Continuous Integration/Continuous Delivery (CI/CD). When code is committed, it automatically triggers a "pipeline" that builds, tests, and deploys the application, automating the release process.</p>
 
-    <h2>Centralized vs. Distributed Systems</h2>
+    <h2>Cloud Collaboration Hubs</h2>
 
-    <p>VCS tools are broadly divided into two main types. The older model is Centralized (CVCS), used by tools like Subversion (SVN) and CVS. In this model, a single main server stores the entire project history. Developers "check out" files to work on them and "commit" their changes back to this central server. While simple, this model requires constant network access and creates a single point of failure.</p>
+    <p>Platforms like GitHub, GitLab, and Bitbucket are no longer just for hosting code. They are all-in-one hubs that integrate:</p>
+
+    <ul>
+        <li>Project management (issue trackers)</li>
+        <li>Code review (pull requests)</li>
+        <li>Built-in CI/CD automation</li>
+    </ul>
 
 The modern standard is the Distributed (DVCS) model, used by Git and Mercurial. In a DVCS, every developer "clones" the entire repository, including its full history, onto their local machine. This allows for offline work, provides massive redundancy (every clone is a backup), and enables powerful, flexible workflows. This model excels at branching (creating isolated lines of development) and merging (combining changes), which are central to modern, parallel development.</p>
 </body>
